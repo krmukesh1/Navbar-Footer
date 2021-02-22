@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "stddemi-font";
+  src: url("../fonts/ITCAvantGardeStdDemi.otf");
+}
+
+@font-face {
+  font-family: "stdmedium-font";
+  src: url("../fonts/ITCAvantGardeStdMd.otf");
+}
+
+@font-face {
+  font-family: "stdbook-font";
+  src: url("../fonts/ITCAvantGardeStdBk.otf");
+}
+img.hlogo {
+  width: 75%;
+  margin-top: -14px;
+}
+
+.sign a {
+  position: relative;
+  width: 70px;
+}
+li.nav-item.sign ::after {
+  content: "";
+  border-right: 1px solid #000;
+  position: absolute;
+  width: 10px;
+  height: 60px;
+  margin-top: -20px;
+}
+.header-wr {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.logo-wr-header img {
+  width: 60%;
+  margin-top: 15px;
+}
+.menu-wr li,
+.last-btn li {
+  list-style: none;
+  display: inline;
+  letter-spacing: 0.5px;
+}
+.menu-wr a {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin-left: 30px !important;
+  color: #2b2b2b !important;
+  transition: all 0.2s ease;
+  font-family: stdmedium-font;
+}
+.menu-wr a:hover {
+  color: #17bebb !important;
+}
+
+.menu-wr .mr-auto {
+  margin-left: 0px !important;
+}
+
+.menu-wr .navbar {
+  padding: 0;
+}
+
+.last-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.post-btn {
+  width: 105px;
+  margin: 4px 0 0 0;
+}
+.post-btn a {
+  border: 2px solid #17bebb;
+  border-radius: 50px;
+  color: #17bebb !important;
+  padding: 5px 15px !important;
+  transition: all 0.2s ease;
+}
+.post-btn a:hover {
+  color: #fff !important;
+  border-color: #17bebb;
+  background-color: #17bebb;
+}
+.logicon img {
+  height: 25px;
+  cursor: pointer;
+  margin: 9px 0 0 0;
+}
+.nav-link {
+  font-family: "stdmedium-font";
+  color: #000 !important;
+}
+.nav-link:focus,
+:hover {
+  color: #17bebb !important;
+}
+i.fa.fa-bars {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000 !important;
+}

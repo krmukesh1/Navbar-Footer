@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta Charset -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/rqlogo.jpg" type="image/gif" sizes="16x16" />
+    <!-- Meta ViewPort -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="button.css" />
     <title>Header & Footer</title>
+    <!-- Meta Description -->
+    <script src="https://use.fontawesome.com/702c04af0b.js"></script>
+    <!-- Meta keywords -->
+
+    <!-- Meta Author -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Mukesh</h1>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img class="hlogo" src="/images/logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li>
+              <div class="searchBox">
+                <input
+                  type="text"
+                  class="searchText"
+                  placeholder="Type to Search"
+                  style="background-color: #fff"
+                />
+                <a href="#" class="searchBtn">
+                  <i class="fa fa-search fa-1.5x"></i>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Employee Zone
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Trending Jobs</a></li>
+                <li><a class="dropdown-item" href="#">Skills in Demand</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Learn on the Go</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Know Yourself More</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Refer N Earn</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Employer Zone
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Post Jobs</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Industry Indhights</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Training Modules</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Evalute Personality</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Performance Excellence Tolls</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Knowledge Center
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Webinars</a></li>
+                <li><a class="dropdown-item" href="#">Blogs</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Forum</a>
+                </li>
+              </ul>
+            </li>
+            <div class="logicon">
+              <img
+                src="https://image.flaticon.com/icons/png/512/130/130924.png"
+              />
+            </div>
+
+            <li class="nav-item sign">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+            <li class="nav-item post-btn">
+              <a class="nav-link" href="#">Post Job</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

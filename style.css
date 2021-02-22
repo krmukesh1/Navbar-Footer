@@ -13,7 +13,7 @@
   src: url("../fonts/ITCAvantGardeStdBk.otf");
 }
 img.hlogo {
-  width: 75%;
+  width: 100%;
   margin-top: -14px;
 }
 
@@ -70,8 +70,8 @@ li.nav-item.sign ::after {
   color: #2b2b2b;
 }
 .post-btn {
-  width: 105px;
-  margin: 4px 0 0 0;
+  width: 101px;
+  margin: 4px 0 0 10px !important;
 }
 .post-btn a {
   border: 2px solid #17bebb;
@@ -105,4 +105,12 @@ i.fa.fa-bars {
 }
 .dropdown-menu {
   border: none !important;
+}
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  /* justify-content: space-evenly; */
+}
+.nav-item {
+  margin: 0 0 0 5px;
 }

@@ -118,7 +118,11 @@ ul {
   flex-wrap: nowrap;
   /* justify-content: space-evenly; */
 }
-.nav-item {
+li.nav-item {
+  margin: 0 3px;
+  font-size: 14px;
+}
+/* .nav-item {
   margin: 0 15px 0 0px;
   font-size: 14px;
 }
@@ -128,4 +132,4 @@ ul {
 
 .nav-item:nth-child(6) {
   margin: 0 0 0 6px;
-}
+} */

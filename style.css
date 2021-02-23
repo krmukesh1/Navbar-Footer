@@ -92,7 +92,7 @@ li.nav-item.sign ::after {
   background-color: #17bebb;
 }
 .logicon img {
-  height: 25px;
+  /* height: 25px; */
   cursor: pointer;
   margin: 5px 0 0 0;
 }
@@ -137,5 +137,11 @@ li.nav-item {
   img.hlogo {
     width: 60%;
     margin-top: 1px;
+  }
+  i.fa.fa-bars {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000 !important;
+    margin: -4px 0 0 -11px;
   }
 }

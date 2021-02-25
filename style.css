@@ -137,9 +137,33 @@ li.nav-item {
 }
 /* footer */
 footer {
-  height: 55vh;
+  font-family: "stdbook-font";
+  height: 60vh;
   background: #2b2b2b;
   color: #fff;
+}
+footer a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+footer .container {
+  padding-top: 5rem;
+}
+footer h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+footer span {
+  color: #17bebb;
+}
+footer h4 {
+  text-transform: uppercase;
+  color: #17bebb;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+footer p {
+  font-size: 0.9rem;
 }
 @media only screen and (min-device-width: 1900px) and (max-device-width: 1980px) {
   img.hlogo {

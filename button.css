@@ -8,8 +8,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background: rgba(209, 242, 235, 0.4) !important;
-  border: 2px solid #d1f2eb !important;
+  background: rgba(233, 242, 239, 0.4) !important;
+  border: none;
 }
 ::placeholder {
   padding-left: 10px;

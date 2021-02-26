@@ -34,3 +34,53 @@ a:hover {
   display: grid;
   place-items: center;
 }
+a,
+a:hover {
+  text-decoration: none !important;
+}
+.searchB {
+  border-radius: 5px;
+  margin-bottom: -20px;
+}
+::placeholder {
+  padding-left: 10px;
+}
+.searchT {
+  width: 20vw;
+  height: 2.5rem;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+  background: #fff !important;
+}
+.searchT:focus {
+  outline: none;
+}
+.searchBt {
+  color: #2fc5c2 !important;
+  background-color: #2fc5c2;
+  width: 4vw;
+  height: 2.5rem;
+  top: -40px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  left: 14.6rem;
+}
+@media only screen and (min-device-width: 1900px) and (max-device-width: 1980px) {
+  .searchBt {
+    color: #2fc5c2 !important;
+    background-color: #2fc5c2;
+    width: 4vw;
+    height: 2.5rem;
+    top: -40px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    left: 19.6rem;
+  }
+}

@@ -102,11 +102,11 @@ img.fa.fa-bars {
   text-align: center;
   font-family: "stdmedium-font";
 }
-/* .post-btn a:hover {
+.post-btn a:hover {
   color: #fff !important;
   border-color: #17bebb;
   background-color: #17bebb;
-} */
+}
 .logicon img {
   cursor: pointer;
   margin: 5px 0 0 0;

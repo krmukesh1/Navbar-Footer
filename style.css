@@ -27,7 +27,30 @@ section {
   position: relative;
   width: 70px;
 }
+.navbar .dropdown {
+  position: static;
+}
 
+.navbar .dropdown-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 45px;
+}
+ul.dropdown-menu.menu1 {
+  padding-left: 43rem;
+}
+
+ul.dropdown-menu.menu2 {
+  padding-left: 51rem;
+}
+ul.dropdown-menu.menu3 {
+  padding-left: 59rem;
+}
+.navbar .dropdown:hover .dropdown-menu,
+.navbar .dropdown .dropdown-menu:hover {
+  display: block !important;
+}
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -231,13 +254,70 @@ footer .copyright span {
   color: #fff;
   line-height: 24px;
 }
+footer.menu-icons .container {
+  font-family: "stdmedium-font";
+  padding-top: 2rem;
+  padding-left: 2.6rem;
+}
+footer.menu-icons {
+  font-family: "stdmedium-font";
+  height: 35vh;
+  font-weight: 700;
+  background: #fff !important;
+  color: #2b2b2b !important;
+}
+footer.menu-icons .number span,
+.email span,
+.location span {
+  font-family: "stdmedium-font";
+  color: #2b2b2b;
+  font-size: 13px;
+}
+footer.menu-icons a {
+  font-family: "stdmedium-font";
+  text-decoration: none !important;
+  color: #2b2b2b !important;
+}
+div#icon2 {
+  margin-left: -11rem !important;
+}
+ul.dropdown-menu.menu1 {
+  padding-left: 29.5rem;
+}
+ul.dropdown-menu.menu2 {
+  padding-left: 37.2rem;
+}
+ul.dropdown-menu.menu3 {
+  padding-left: 45.2rem;
+}
+footer.menu-icons {
+  font-family: "stdmedium-font";
+  height: 45vh;
+  font-weight: 700;
+  background: #fff !important;
+  color: #2b2b2b !important;
+}
 @media only screen and (min-device-width: 1900px) and (max-device-width: 1980px) {
   img.hlogo {
-    width: 80%;
+    width: 55%;
     margin-top: 1px;
+    margin-left: 75px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    padding-bottom: 3px;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 49rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 57.5rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 66.5rem;
   }
   a.navbar-brand {
-    width: 200px;
+    width: 330px;
   }
   i.fa.fa-bars {
     font-size: 30px;
@@ -261,15 +341,39 @@ footer .copyright span {
     text-align: center;
     background: #17bebb;
     padding: 15px 0;
-    margin-top: 3rem;
+    margin-top: 2rem;
+  }
+  footer .location p {
+    margin-left: 31px;
+    margin-top: -24px;
+    width: 306px;
   }
   footer .number img,
   .email img {
-    margin-right: 10px;
+    margin-right: 15px;
     width: 14px;
   }
   footer .location img {
     width: 14px;
+  }
+  footer h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 40px;
+  }
+  footer .searchB {
+    border-radius: 5px;
+    margin-bottom: -15px;
+    padding-left: 40px;
+  }
+  footer .icon {
+    padding-left: 40px;
+  }
+  footer .number,
+  .email,
+  .location {
+    margin-bottom: 14px;
+    padding-left: 40px;
   }
   .searchBt {
     color: #2fc5c2 !important;

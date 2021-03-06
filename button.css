@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "stddemi-font";
+  src: url("../fonts/ITCAvantGardeStdDemi.otf");
+}
+
+@font-face {
+  font-family: "stdmedium-font";
+  src: url("../fonts/ITCAvantGardeStdMd.otf");
+}
+
+@font-face {
+  font-family: "stdbook-font";
+  src: url("../fonts/ITCAvantGardeStdBk.otf");
+}
 a,
 a:hover {
   text-decoration: none !important;
@@ -13,12 +27,14 @@ a:hover {
 }
 ::placeholder {
   padding-left: 10px;
+  font-family: "stdbook-font";
 }
 .searchText {
+  font-family: "stdbook-font";
   width: 14rem;
   height: 2.2rem;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   outline: none;
   transition: all 0.2s linear;

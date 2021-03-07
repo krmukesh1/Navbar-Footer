@@ -152,9 +152,26 @@ img.fa.fa-bars {
   font-family: "stdmedium-font";
 }
 .post-btn a:hover {
-  color: #fff !important;
+  color: #17bebb !important;
   border-color: #17bebb;
   background-color: #17bebb;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #17bebb !important;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #17bebb !important;
+  background-color: transparent !important;
+  border: none;
+}
+.nav-link:active {
+  font-family: "stdmedium-font";
+  color: #17bebb !important;
 }
 .logicon img {
   cursor: pointer;
@@ -300,10 +317,10 @@ ul.dropdown-menu.menu1 {
   padding-left: 29.5rem;
 }
 ul.dropdown-menu.menu2 {
-  padding-left: 37.2rem;
+  padding-left: 38.2rem;
 }
 ul.dropdown-menu.menu3 {
-  padding-left: 45.2rem;
+  padding-left: 47.2rem;
 }
 footer.menu-icons {
   font-family: "stdmedium-font";

@@ -169,7 +169,15 @@ img.fa.fa-bars {
   background-color: transparent !important;
   border: none;
 }
-.nav-link:active {
+/* .nav-link:active,
+.nav-link :focus,
+.nav-link :hover {
+  font-family: "stdmedium-font";
+  color: #17bebb !important;
+} */
+a#navbarScrollingDropdown:active,
+a#navbarScrollingDropdown:focus,
+a#navbarScrollingDropdown:hover {
   font-family: "stdmedium-font";
   color: #17bebb !important;
 }

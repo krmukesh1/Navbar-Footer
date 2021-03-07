@@ -337,6 +337,53 @@ footer.menu-icons {
   background: #fff !important;
   color: #2b2b2b !important;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .searchBox {
+    margin-left: -110px;
+  }
+  i.fa.fa-search.fa-1\.5x {
+    margin-left: -208px;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 0rem;
+  }
+  footer {
+    font-family: "stdbook-font";
+    height: 195vh;
+    background: #2b2b2b;
+    color: #fff;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
+  .searchBox {
+    margin-left: -290px;
+  }
+  i.fa.fa-search.fa-1\.5x {
+    margin-left: -598px;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 0rem;
+  }
+  footer {
+    font-family: "stdbook-font";
+    height: 155vh;
+    background: #2b2b2b;
+    color: #fff;
+  }
+}
 @media only screen and (min-device-width: 1900px) and (max-device-width: 1980px) {
   img.hlogo {
     width: 55%;

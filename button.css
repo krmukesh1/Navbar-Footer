@@ -86,6 +86,163 @@ a:hover {
   border-radius: 5px;
   left: 14.6rem;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .searchBox {
+    margin-left: -110px;
+  }
+  i.fa.fa-search.fa-1\.5x {
+    margin-left: -208px;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 0rem;
+  }
+  footer {
+    font-family: "stdbook-font";
+    height: 195vh;
+    background: #2b2b2b;
+    color: #fff;
+  }
+  .searchT {
+    width: 77vw;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    background: #fff !important;
+  }
+  .searchBt {
+    color: #2fc5c2 !important;
+    background-color: #2fc5c2;
+    width: 13vw;
+    height: 2.5rem;
+    top: -40px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    left: 14.6rem;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
+  .searchBox {
+    margin-left: -290px;
+  }
+  i.fa.fa-search.fa-1\.5x {
+    margin-left: -598px;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 0rem;
+  }
+  .searchT {
+    width: 51vw;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    background: #fff !important;
+  }
+  .searchBt {
+    color: #2fc5c2 !important;
+    background-color: #2fc5c2;
+    width: 13vw;
+    height: 2.5rem;
+    top: -40px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    left: 14.6rem;
+  }
+}
+@media only screen and (min-device-width: 601px) and (max-device-width: 768px) {
+  .searchBox {
+    margin-left: -475px;
+  }
+  i.fa.fa-search.fa-1\.5x {
+    margin-left: -948px;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 0rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 0rem;
+  }
+  .searchT {
+    width: 38vw;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    background: #fff !important;
+  }
+  .searchBt {
+    color: #2fc5c2 !important;
+    background-color: #2fc5c2;
+    width: 8vw;
+    height: 2.5rem;
+    top: -40px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    left: 14.6rem;
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  a.navbar-brand {
+    width: 125px;
+  }
+  .navbar-collapse {
+    align-items: center;
+    width: 90%;
+  }
+  ul.dropdown-menu.menu1 {
+    padding-left: 17rem;
+  }
+  ul.dropdown-menu.menu2 {
+    padding-left: 26rem;
+  }
+  ul.dropdown-menu.menu3 {
+    padding-left: 34.6rem;
+  }
+  footer {
+    font-family: "stdbook-font";
+    height: 92vh;
+    background: #2b2b2b;
+    color: #fff;
+  }
+  .searchT {
+    width: 26vw;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    background: #fff !important;
+  }
+}
 @media only screen and (min-device-width: 1900px) and (max-device-width: 1980px) {
   .searchBt {
     color: #2fc5c2 !important;

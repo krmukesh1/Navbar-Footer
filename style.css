@@ -24,8 +24,9 @@
   box-shadow: 0 3px 5px -3px #f8f9fa;
 }
 img.hlogo {
-  width: 80%;
-  margin-top: -14px;
+  width: 70%;
+  margin-left: 16px;
+  margin-top: -6px;
 }
 a.navbar-brand {
   width: 161px;
